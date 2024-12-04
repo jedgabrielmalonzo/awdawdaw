@@ -1,0 +1,99 @@
+#seatsDiagram {
+    width: 100%;
+    table-layout: fixed; 
+    border-collapse: separate;
+    border-spacing: 5px; 
+}
+
+
+#seatsDiagram td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+#seatsDiagram td.hallway {
+    background-color: transparent; 
+    pointer-events: none; 
+    visibility: hidden; 
+}
+
+
+#seatsDiagram td:hover:not(.hallway) {
+    background-color: #808180; 
+    transition: background-color 0.3s ease; 
+}
+
+
+#seatsDiagram td.selected {
+    background-color: #0c770c; 
+    color: #fff; 
+}
+
+
+.form-section {
+    flex: 0 0 30%; 
+    overflow-y: auto; 
+}
+
+.form-section .form-label {
+    margin-top: 10px;
+}
+
+.form-section input,
+.form-section select,
+.form-section button {
+    margin-bottom: 10px;
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+
+.seats-section {
+    flex: 0 0 65%; 
+    overflow-y: auto; 
+}
+
+
+@media (max-width: 768px) {
+    #seatsDiagram td {
+        width: 30px; 
+        height: 30px;
+        padding: 5px;
+    }
+
+    .seats-section {
+        flex: 0 0 100%;
+    }
+
+    .form-section {
+        flex: 0 0 100%; 
+    }
+}
+
+
+#seatsDiagram td.selected {
+    animation: pop 0.3s ease; 
+}
+
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

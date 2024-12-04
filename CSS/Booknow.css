@@ -1,0 +1,242 @@
+.banner {
+    position: relative;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/3/3a/Big_Manila.jpg")
+      no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88, 36, 36, 0.671);
+  }
+  
+  .banner-content {
+    position: relative;
+    text-align: center;
+  }
+  
+  .banner-title {
+    font-size: 5rem;
+    color: #fffff0;
+    font-family: "Bebas Neue";
+  }
+
+
+
+/* Apply Poppins font to the entire body */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/3/3a/Big_Manila.jpg") no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88, 36, 36, 0.671);
+}
+
+.banner-content {
+    position: relative;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 5rem;
+    color: #fffff0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* Navbar Customizations */
+.no-shadow {
+    box-shadow: none;
+  }
+
+.navbar {
+    background: #db4a2b;
+    letter-spacing: -1.3px;
+    
+}
+
+
+
+.nav-link,
+
+.navbar-brand {
+
+    color: #f8f8f8;
+
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+.nav-link:hover {
+
+    color: #f5876f;
+
+}
+
+
+
+.navbar-collapse {
+
+    justify-content: flex-end;
+
+}
+h6{
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tour Booking Section */
+.tour-booking-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tour-booking-section .form-group label {
+    font-weight: bold;
+}
+
+.tour-booking-section .btn {
+    padding: 10px 20px;
+}
+
+@media (max-width: 576px) {
+    .tour-booking-section .d-flex {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .tour-booking-section .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Attractions and DIY Tours Section */
+.section-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+.attractions-section img,
+.diy-tours-section .card-img-top {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.attractions-section .row div,
+.diy-tours-section .card {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Guided Tours Section */
+.guided-tours-section .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.guided-tours-section .card img {
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.guided-tours-section .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.guided-tours-section .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.guided-tours-section .card-text {
+    color: #6c757d;
+}
+
+.guided-tours-section .btn-danger {
+    background-color: #d9534f;
+    border: none;
+    padding: 10px 20px;
+    margin-top: auto;
+}
+
+.guided-tours-section .btn-danger:hover {
+    background-color: #c9302c;
+}
+
+@media (max-width: 576px) {
+    .guided-tours-section .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Footer Customizations */
+.container-footer,
+footer,
+footer p,
+footer h6,
+footer a {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Additional Font Styling */
+.card-title,
+.step-highlight,
+.carousel-inner,
+.card-text {
+    font-family: 'Poppins', sans-serif;
+}

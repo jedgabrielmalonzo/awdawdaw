@@ -1,0 +1,127 @@
+body {
+    background-color: #f2f6e9;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: #db4a2b;
+    letter-spacing: -1.3px;
+    font-weight: lighter;
+    width: 100%;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f8f8f8;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #f5876f;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+h6 {
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #5c5f63; 
+    padding: 40px 0; 
+    color: #343a40; 
+}
+
+footer h6 {
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+footer p {
+    margin-bottom: 10px; 
+}
+
+footer a {
+    color: #343a40; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+.social-icons a {
+    margin: 0 10px; 
+    color: #db4a2b; 
+}
+
+.social-icons a:hover {
+    color: #db4a2b; 
+}
+
+.text-uppercase {
+    color: #db4a2b;
+}
+
+.text-center {
+    background-color: white; 
+    color: black;
+}
+
+.card {
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure content fits nicely */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+
+
+.card-img-top {
+    border-top-left-radius: 15px; /* Rounded corners for image */
+    border-top-right-radius: 15px; /* Rounded corners for image */
+}
+
+.card-body {
+    background-color: #ffffff; /* Card body background */
+    padding: 2rem; /* Padding for card body */
+    text-align: center; /* Center text */
+}
+
+.card-text {
+    color: #333; /* Text color */
+    font-size: 1.2rem; /* Font size */
+    margin-top: 1rem; /* Space above text */
+}
+
+.btn-danger {
+    background-color: #d76348 !important;
+    border-radius: 25px; /* Rounded button corners */
+}
+
+.btn-danger:hover {
+    background-color: #c14e37 !important; /* Button hover color */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    footer .col-md-3, footer .col-md-4, footer .col-md-2 {
+        margin-bottom: 30px; 
+    }
+
+    .card {
+        width: 90%; /* Full width on smaller screens */
+    }
+}

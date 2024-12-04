@@ -1,0 +1,299 @@
+/* Import Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Section */
+.navbar-section {
+    width: 100%;
+    background-color: #db4a2b; /* Red background */
+    color: white;
+}
+
+/* Top Section */
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 3px solid white; /* Separator line */
+}
+
+/* Navbar Logo */
+.navbar-top .logo {
+    height: auto; /* Allow height to adjust */
+    width: 100px; /* Adjust this value to make the logo longer */
+    max-height: 80px; /* Optional: Ensure the logo doesn’t grow too tall */
+    object-fit: contain; /* Ensure the aspect ratio of the logo is maintained */
+    padding-right: 10px; /* Add space if the logo pushes against the icons */
+}
+
+/* Navbar Icons */
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 10px; /* Maintain spacing with the logo */
+}
+
+.navbar-icons .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.navbar-icons .nav-link:hover {
+    color: hsl(20, 11%, 86%); /* Lighten the text color */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.navbar-icons .social-icon {
+    color: white; /* Icon color */
+    font-size: 1.65rem; /* Adjust icon size */
+    text-decoration: none;
+    margin: 0 10px; /* Space between icons */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.navbar-icons .social-icon:hover {
+    color: hsl(20, 11%, 86%); /* Lighten the icon color */
+    transform: scale(1.2); /* Slight zoom effect */
+}
+
+/* Bottom Section */
+.navbar-bottom {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar-bottom .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar-bottom .nav-links li {
+    margin: 0 20px; /* Adds horizontal space between each item */
+}
+
+.navbar-bottom .nav-links a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #0b2a2c; /* Red text */
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.navbar-bottom .nav-links a:hover {
+    color: #ce5d5d; /* Slightly brighter red */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar-icons {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .navbar-icons .nav-link {
+        font-size: 0.8rem; /* Reduce font size for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-top {
+        padding: 10px;
+    }
+
+    .navbar-bottom {
+        padding: 8px 0;
+    }
+
+    .navbar-icons .nav-link {
+        font-size: 0.75rem;
+    }
+
+    .navbar-bottom .nav-links {
+        flex-direction: column; /* Stack bottom links vertically */
+        gap: 10px;
+    }
+
+    .navbar-bottom .nav-links a {
+        font-size: 14px; /* Smaller text for mobile */
+    }
+}
+
+/* Footer */
+footer,
+footer p,
+footer h6,
+footer a {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling the Login Modal */
+#loginModal .modal-dialog {
+    max-width: 400px;
+    margin: 30px auto; /* Centers the modal vertically and horizontally */
+}
+
+/* Modal Header */
+#loginModal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo inside Modal Header */
+#loginModal .modal-header img {
+    max-height: 40px; /* Ensures the logo doesn't overflow */
+    width: auto;
+}
+
+/* Title of the Modal */
+#loginModal .modal-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+/* Close Button */
+#loginModal .close {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+/* Modal Body */
+#loginModal .modal-body {
+    padding: 20px;
+}
+
+/* Form Elements */
+#loginModal .form-group {
+    margin-bottom: 1rem;
+}
+
+/* Input Fields */
+#loginModal input[type="text"],
+#loginModal input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login Button */
+#loginModal button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #db4a2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#loginModal button[type="submit"]:hover {
+    background-color: #a83a22;
+}
+
+/* Optional: Styling the Modal Footer if needed */
+#loginModal .modal-footer {
+    border-top: 1px solid #ddd;
+}
+
+/* Styling the Sign Up Modal (Similar to Login Modal) */
+#signupModal .modal-dialog {
+    max-width: 400px;
+    margin: 30px auto; /* Centers the modal vertically and horizontally */
+}
+
+/* Modal Header */
+#signupModal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo inside Modal Header */
+#signupModal .modal-header img {
+    max-height: 40px; /* Ensures the logo doesn't overflow */
+    width: auto;
+}
+
+/* Title of the Modal */
+#signupModal .modal-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+/* Close Button */
+#signupModal .close {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+/* Modal Body */
+#signupModal .modal-body {
+    padding: 20px;
+}
+
+/* Form Elements */
+#signupModal .form-group {
+    margin-bottom: 1rem;
+}
+
+/* Input Fields */
+#signupModal input[type="text"],
+#signupModal input[type="email"],
+#signupModal input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Sign Up Button */
+#signupModal button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #db4a2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#signupModal button[type="submit"]:hover {
+    background-color: #a83a22;
+}

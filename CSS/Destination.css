@@ -1,0 +1,61 @@
+.banner {
+    position: relative;
+    background: url("") no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .banner-content {
+    position: relative;
+    text-align: center;
+  }
+  
+  .banner-title {
+    font-size: 5rem;
+    color: #000000;
+    font-family: "Bebas Neue";
+  
+  }
+  
+  .destinations-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-family: Poppins;
+  }
+  
+  /* Ensure the footer content is centered */
+  .container-footer {
+      text-align: center;
+  }
+
+  /* Apply Poppins font to the entire body as default */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Banner content */
+.banner-title {
+  font-family: 'Bebas Neue', sans-serif; /* Keep Bebas Neue for title if desired */
+}
+.banner-content, .destinations-list h4, .destinations-list p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Footer */
+.container-footer, .container-footer .font-weight-bold, .container-footer p, .container-footer a {
+  font-family: 'Poppins', sans-serif;
+}

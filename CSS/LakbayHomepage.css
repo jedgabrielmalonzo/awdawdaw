@@ -1,0 +1,302 @@
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background: #f2f6e9;
+
+}
+
+
+
+/*--- navigation bar ---*/
+
+.no-shadow {
+    box-shadow: none;
+  }
+
+.navbar {
+    background: #db4a2b;
+    letter-spacing: -1.3px;
+    font-weight: lighter;
+}
+
+
+
+.nav-link,
+
+.navbar-brand {
+
+    color: #f8f8f8;
+
+    cursor: pointer;
+
+}
+
+
+
+.nav-link {
+
+    margin-right: 1em !important;
+
+}
+
+
+
+.nav-link:hover {
+
+    color: #f5876f;
+
+}
+
+
+
+.navbar-collapse {
+
+    justify-content: flex-end;
+
+}
+h6{
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--- Content ---*/
+
+
+.carousel{
+    margin: 25px;
+}
+
+.container-places .card-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #db4a2b; 
+    text-align: center;
+    margin-bottom: 30px;
+    background: none;
+}
+.container-places .card-img-overlay {
+    background: linear-gradient(0deg, rgba(219,74,43,0.7) 0%, rgba(255, 255, 255, 0.5) 100%);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    align-items: end; 
+    justify-content: center;
+    
+}
+.container-places .card-title {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.container-places .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.container-steps{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.step-box i {
+    font-size: 50px; 
+    color: #db4a2b;  
+    padding-bottom: 20px;
+}
+
+.step-highlight{
+    color: #db4a2b;
+    font-size: 25px;
+}
+.container-steps{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-places .card-img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer.css */
+.container-footer {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer {
+    background-color: #5c5f63; 
+    padding: 40px 0; 
+    color: #343a40; 
+}
+
+footer h6 {
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+footer p {
+    margin-bottom: 10px; 
+}
+
+footer a {
+    color: #343a40; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+.social-icons a {
+    margin: 0 10px; 
+    color: #db4a2b; 
+}
+
+.social-icons a:hover {
+    color: #db4a2b; 
+}
+.text-uppercase{
+    color: #db4a2b;
+}
+.text-center{
+    background-color: white; 
+    color: black;
+}
+
+
+
+@media (max-width: 768px) {
+    footer .col-md-3, footer .col-md-4, footer .col-md-2 {
+        margin-bottom: 30px; 
+    }
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+
+  
